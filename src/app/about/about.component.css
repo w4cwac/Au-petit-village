@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+p{
+    font-size: large;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.conteneur{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    margin-top: 2em;
+    margin-right: 2em;
+    margin-left: 2em;
+    filter: drop-shadow(0 0 10rem #F9D0A3);
+}
+
+
+
+.texte{
+    background: radial-gradient(#FFFF 60%, #FDD90B);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 65%;
+    padding: 5%;
+    margin: 2em;
+
+}
+img{
+    width: 100%;
+    margin: 5%;
+    border-radius: 50%;
+}
+
+
+
+
+
+.image{
+    background: radial-gradient(#FFFF 55%, #FDD90B);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 30%;
+    border-radius: 50%;
+    filter: drop-shadow(0 0 2rem #FDD90B);
+}
+
+.div_entreprise{
+    background: radial-gradient(#FFFF 55%, #FDD90B);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    width: 30%;
+    border-radius: 50%;
+    filter: drop-shadow(0 0 2rem #FDD90B);
+
+}
+
+.entreprise{
+    width: 90%;
+    height: 100%;
+}

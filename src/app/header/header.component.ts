@@ -13,8 +13,8 @@ import { RouterModule } from '@angular/router';
         <div class="logo"><a [routerLink]="['']"><img [src]="logo" width="60px" alt="casque de gaulois avec le nom au-petit-village ecrit en rouge"></a></div>
         <div class="links">
           <ul>
+            <li><a [routerLink]="['']">Accueil</a></li>
             <li><a [routerLink]="['About']">A-Propos</a></li>
-            <li><a [routerLink]="['Product']">Nos Produits</a></li>
           </ul>
         </div>
       </nav>
