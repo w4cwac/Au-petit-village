@@ -48,8 +48,8 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "favicon.jpg",
-              "assets"
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
               "src/styles.css"
